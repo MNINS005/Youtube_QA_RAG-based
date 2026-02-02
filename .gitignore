@@ -1,0 +1,67 @@
+# ===============================
+# Environment variables / secrets
+# ===============================
+.env
+.env.*
+
+# ===============================
+# Python virtual environments
+# ===============================
+venv/
+.venv/
+env/
+ENV/
+
+# ===============================
+# Python cache / compiled files
+# ===============================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ===============================
+# OS-specific files
+# ===============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===============================
+# IDE / Editor settings
+# ===============================
+.vscode/
+.idea/
+*.swp
+
+# ===============================
+# Logs
+# ===============================
+*.log
+
+# ===============================
+# ML / Model caches (important!)
+# ===============================
+# HuggingFace / sentence-transformers
+.cache/
+.cache/**
+**/.cache/
+**/sentence_transformers/
+
+# ===============================
+# Vector stores / temporary data
+# ===============================
+faiss_index/
+vectorstore/
+data/
+
+# ===============================
+# Build / deploy artifacts
+# ===============================
+dist/
+build/
+*.egg-info/
+
+# ===============================
+# Jupyter notebooks (optional)
+# ===============================
+.ipynb_checkpoints/
