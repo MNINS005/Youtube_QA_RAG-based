@@ -1,7 +1,7 @@
 from flask import Flask, request, jsonify, render_template
 from flask_cors import CORS
 
-from app import run   # your RAG pipeline
+from src.app import run   # your RAG pipeline
 
 def create_app():
     app = Flask(

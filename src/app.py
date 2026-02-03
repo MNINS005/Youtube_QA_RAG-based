@@ -1,9 +1,9 @@
-from loaders.transcript import get_transcript
-from embeddings.embedder import split_text
-from vectorstore.store import create_vectorstore
-from retriever.retriever import get_retriever
-from chains.qa_chain import build_qa_chain
-from config import llm, embeddings
+from src.loaders.transcript import get_transcript
+from src.embeddings.embedder import split_text
+from src.vectorstore.store import create_vectorstore
+from src.retriever.retriever import get_retriever
+from src.chains.qa_chain import build_qa_chain
+from src.config import llm, embeddings
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 
